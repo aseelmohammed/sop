@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "sop"
-app_title = "sop"
+app_title = "SOP"
 app_publisher = "Partner Consulting Solutions"
 app_description = "Standard Operating Procedure"
 app_icon = "octicon octicon-file-directory"
