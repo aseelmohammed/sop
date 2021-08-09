@@ -7,7 +7,7 @@ def get_data():
 		{
 			"module_name": "SOP",
 			"color": "grey",
-			"icon": "octicon octicon-file-directory",
+			"icon": "fa fa-snowflake-o",
 			"type": "module",
 			"label": _("SOP")
 		}
