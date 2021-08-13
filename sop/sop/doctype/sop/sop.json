@@ -34,14 +34,18 @@
    "reqd": 1
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "name_en",
    "fieldtype": "Data",
-   "label": "Name EN"
+   "label": "Name EN",
+   "reqd": 1
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "name_ar",
    "fieldtype": "Data",
-   "label": "Name AR"
+   "label": "Name AR",
+   "reqd": 1
   },
   {
    "fieldname": "lft",
@@ -80,9 +84,9 @@
   }
  ],
  "is_tree": 1,
- "modified": "2021-08-10 01:04:19.309463",
- "modified_by": "Administrator",
- "module": "SOP",
+ "modified": "2021-08-10 20:49:54.187281",
+ "modified_by": "a.kuhlani@partner-cons.com",
+ "module": "sop",
  "name": "SOP",
  "nsm_parent_field": "parent_sop",
  "owner": "Administrator",
