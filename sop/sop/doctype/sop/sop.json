@@ -14,7 +14,25 @@
   "lft",
   "rgt",
   "is_group",
-  "old_parent"
+  "old_parent",
+  "policy_section_section",
+  "policy_discr",
+  "purpose",
+  "scope",
+  "responsibilities",
+  "definitions",
+  "references",
+  "background",
+  "effectiveness_criteria",
+  "additional_resources",
+  "jop_descriptions_section",
+  "summary_of_functions",
+  "essential_duties_and_responsibilities",
+  "organizational_relationships",
+  "procedures",
+  "qualifications",
+  "physical_demands",
+  "work_environment"
  ],
  "fields": [
   {
@@ -81,11 +99,103 @@
    "fieldtype": "Link",
    "label": "Parent SOP",
    "options": "SOP"
+  },
+  {
+   "depends_on": "eval:doc.type=='Policy'",
+   "fieldname": "policy_section_section",
+   "fieldtype": "Section Break",
+   "label": "Policy Section"
+  },
+  {
+   "fieldname": "policy_discr",
+   "fieldtype": "Data",
+   "label": "Policy Discr"
+  },
+  {
+   "fieldname": "purpose",
+   "fieldtype": "Data",
+   "label": "Purpose"
+  },
+  {
+   "fieldname": "scope",
+   "fieldtype": "Data",
+   "label": "Scope"
+  },
+  {
+   "fieldname": "responsibilities",
+   "fieldtype": "Data",
+   "label": "Responsibilities"
+  },
+  {
+   "fieldname": "definitions",
+   "fieldtype": "Data",
+   "label": "Definitions"
+  },
+  {
+   "fieldname": "references",
+   "fieldtype": "Data",
+   "label": "References"
+  },
+  {
+   "fieldname": "background",
+   "fieldtype": "Data",
+   "label": "Background"
+  },
+  {
+   "fieldname": "effectiveness_criteria",
+   "fieldtype": "Data",
+   "label": "Effectiveness Criteria"
+  },
+  {
+   "fieldname": "additional_resources",
+   "fieldtype": "Data",
+   "label": "Additional Resources"
+  },
+  {
+   "depends_on": "eval:doc.type=='Job Description'",
+   "fieldname": "jop_descriptions_section",
+   "fieldtype": "Section Break",
+   "label": "Jop Descriptions"
+  },
+  {
+   "fieldname": "summary_of_functions",
+   "fieldtype": "Data",
+   "label": "SUMMARY OF FUNCTIONS"
+  },
+  {
+   "fieldname": "essential_duties_and_responsibilities",
+   "fieldtype": "Data",
+   "label": "ESSENTIAL DUTIES AND RESPONSIBILITIES"
+  },
+  {
+   "fieldname": "organizational_relationships",
+   "fieldtype": "Data",
+   "label": "ORGANIZATIONAL RELATIONSHIPS"
+  },
+  {
+   "fieldname": "procedures",
+   "fieldtype": "Data",
+   "label": "PROCEDURES"
+  },
+  {
+   "fieldname": "qualifications",
+   "fieldtype": "Data",
+   "label": "QUALIFICATIONS"
+  },
+  {
+   "fieldname": "physical_demands",
+   "fieldtype": "Data",
+   "label": "PHYSICAL DEMANDS"
+  },
+  {
+   "fieldname": "work_environment",
+   "fieldtype": "Data",
+   "label": "WORK ENVIRONMENT"
   }
  ],
  "is_tree": 1,
- "modified": "2021-08-10 20:49:54.187281",
- "modified_by": "a.kuhlani@partner-cons.com",
+ "modified": "2021-08-22 10:33:42.003177",
+ "modified_by": "aseel@partner-cons.com",
  "module": "sop",
  "name": "SOP",
  "nsm_parent_field": "parent_sop",
