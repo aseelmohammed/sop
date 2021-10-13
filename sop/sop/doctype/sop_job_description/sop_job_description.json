@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{sop_job_description_code}",
+ "creation": "2021-10-13 15:18:36.225292",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sop_job_description_code",
+  "sop_group",
+  "sop_job_description_name_en",
+  "sop_job_description_name_ar",
+  "summary_of_function",
+  "essential_duty_and_responsibility",
+  "organizational_relationship",
+  "procedure",
+  "qualification",
+  "physical_demand",
+  "work_environment"
+ ],
+ "fields": [
+  {
+   "fieldname": "sop_job_description_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "SOP Job Description Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sop_group",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "SOP Group",
+   "options": "SOP Group",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sop_job_description_name_en",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "SOP Job Description Name EN",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "sop_job_description_name_ar",
+   "fieldtype": "Data",
+   "label": "SOP Job Description Name AR"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "summary_of_function",
+   "fieldtype": "Data",
+   "label": "Summary Of Function"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "essential_duty_and_responsibility",
+   "fieldtype": "Data",
+   "label": "Essential Duty and Responsibility"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "organizational_relationship",
+   "fieldtype": "Data",
+   "label": "Organizational Relationship"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "procedure",
+   "fieldtype": "Data",
+   "label": "Procedure"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "qualification",
+   "fieldtype": "Data",
+   "label": "Qualification"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "physical_demand",
+   "fieldtype": "Data",
+   "label": "Physical Demand"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "work_environment",
+   "fieldtype": "Data",
+   "label": "Work Environment"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-13 15:20:38.242636",
+ "modified_by": "Administrator",
+ "module": "sop",
+ "name": "SOP Job Description",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "sop_job_description_name_en",
+ "track_changes": 1
+}

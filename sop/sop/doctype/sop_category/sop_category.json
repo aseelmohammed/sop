@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{sop_category_code}",
+ "creation": "2021-10-13 14:26:12.400854",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sop_category_code",
+  "sop_group",
+  "sop_category_name_en",
+  "sop_category_name_ar",
+  "sop_process_map",
+  "sop_process_map_image",
+  "sop_process_map_display"
+ ],
+ "fields": [
+  {
+   "fieldname": "sop_category_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "SOP Category Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sop_group",
+   "fieldtype": "Link",
+   "label": "SOP Group ",
+   "options": "SOP Group",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sop_category_name_en",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "SOP Category Name EN",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "sop_category_name_ar",
+   "fieldtype": "Data",
+   "label": "SOP Category Name AR"
+  },
+  {
+   "fieldname": "sop_process_map",
+   "fieldtype": "Table",
+   "label": "SOP Process Map",
+   "options": "SOP Process Map",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sop_process_map_image",
+   "fieldtype": "Attach Image",
+   "label": "SOP Process Map Image"
+  },
+  {
+   "fieldname": "sop_process_map_display",
+   "fieldtype": "Image",
+   "label": "SOP Process Map Display",
+   "options": "sop_process_map_image"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-13 17:38:29.804533",
+ "modified_by": "Administrator",
+ "module": "sop",
+ "name": "SOP Category",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "sop_category_name_en",
+ "track_changes": 1
+}

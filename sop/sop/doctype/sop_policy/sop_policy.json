@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{sop_policy_code}",
+ "creation": "2021-10-13 14:38:14.360431",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sop_policy_code",
+  "sop_category",
+  "sop_policy_name_en",
+  "sop_policy_name_ar",
+  "policy_description",
+  "purpose",
+  "scope",
+  "responsibilities",
+  "definitions",
+  "references",
+  "background",
+  "effectiveness_criteria",
+  "additional_resources"
+ ],
+ "fields": [
+  {
+   "fieldname": "sop_policy_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "SOP Policy Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sop_category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "SOP Category",
+   "options": "SOP Category",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sop_policy_name_en",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "SOP Policy Name EN",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "sop_policy_name_ar",
+   "fieldtype": "Data",
+   "label": "SOP Policy Name AR"
+  },
+  {
+   "fieldname": "policy_description",
+   "fieldtype": "Small Text",
+   "label": "Policy Description"
+  },
+  {
+   "fieldname": "purpose",
+   "fieldtype": "Data",
+   "label": "Purpose"
+  },
+  {
+   "fieldname": "scope",
+   "fieldtype": "Data",
+   "label": "Scope"
+  },
+  {
+   "fieldname": "responsibilities",
+   "fieldtype": "Data",
+   "label": "Responsibilities"
+  },
+  {
+   "fieldname": "definitions",
+   "fieldtype": "Data",
+   "label": "Definitions"
+  },
+  {
+   "fieldname": "references",
+   "fieldtype": "Data",
+   "label": "References"
+  },
+  {
+   "fieldname": "background",
+   "fieldtype": "Data",
+   "label": "Background"
+  },
+  {
+   "fieldname": "effectiveness_criteria",
+   "fieldtype": "Data",
+   "label": "Effectiveness Criteria"
+  },
+  {
+   "fieldname": "additional_resources",
+   "fieldtype": "Data",
+   "label": "Additional Resources"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-13 17:06:10.878400",
+ "modified_by": "Administrator",
+ "module": "sop",
+ "name": "SOP Policy",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "sop_policy_name_en",
+ "track_changes": 1
+}

@@ -127,3 +127,4 @@ app_license = "MIT"
 # 	"Task": "sop.task.get_dashboard_data"
 # }
 
+treeviews = ['SOP']

@@ -17,15 +17,42 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "SOP",
-   "link_to": "SOP",
+   "label": "SOP Procedure",
+   "link_to": "SOP Procedure",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SOP Form and Record",
+   "link_to": "SOP Form and Record",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SOP Job Description",
+   "link_to": "SOP Job Description",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SOP Process Map",
+   "link_to": "SOP Process Map",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2021-10-08 20:20:01.118393",
- "modified_by": "r.nehmi@partner-cons.com",
+ "modified": "2021-10-13 15:34:30.395851",
+ "modified_by": "Administrator",
  "module": "sop",
  "name": "SOP",
  "owner": "aseel@partner-cons.com",
@@ -33,9 +60,27 @@
  "pin_to_top": 0,
  "shortcuts": [
   {
-   "doc_view": "List",
+   "doc_view": "Tree",
    "label": "SOP",
    "link_to": "SOP",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "SOP Group",
+   "link_to": "SOP Group",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "SOP Category",
+   "link_to": "SOP Category",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "SOP Policy",
+   "link_to": "SOP Policy",
    "type": "DocType"
   }
  ],
